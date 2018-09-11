@@ -270,9 +270,9 @@ that computing is still an immature field and that the different cultures will e
 seems even more unrealistic. 
 
 Looking specifically at programming languages, there is a number of programming languages that 
-combine ideas from multiple cultures, but equally, new programming langauges keep appearing that 
+combine ideas from multiple cultures, but equally, new programming languages keep appearing that 
 are strongly rooted in one specific culture of programming and are heavily criticised by proponents 
-of other cultures. On one hand, programming languages such as Scala and F\# reconcille concepts
+of other cultures. On one hand, programming languages such as Scala and F\# reconcile concepts
 developed by the mathematical culture (their functional heritage) with practical concerns of the 
 engineering culture (as dictated by their runtimes and ecosystems). On the other hand, programming
 languages such as Agda and TypeScript continue advancing the state of the art solely within one
@@ -289,7 +289,7 @@ programmers and teams in a technical way.
   
 Most of this paper is dedicated to examining how the different cultures interact using a number 
 of case studies that are organised into lectures. Each lecture starts with a dialogue that 
-illustrates some of the diagreements and surprising discoveries that resulted from the interaction
+illustrates some of the disagreements and surprising discoveries that resulted from the interaction
 of cultures, followed by extensive notes that document the historical strand covered less precisely
 in the dialogue. 
 
@@ -303,12 +303,12 @@ within a single consistent culture.
 
 The four lectures that form the core of this paper document a number of strands in the history of
 programming languages. We consider programming languages in a broad sense to accommodate debates
-that were not originally about programming languages, but influence programming langauge desing. 
+that were not originally about programming languages, but influence programming language design. 
 We aim to make the historical account in this paper as accurate as possible, but our
 key contribution is that we present the historical developments, many of which were documented
 elsewhere, within a new conceptual framework. Although we certainly ``study the past with the 
 reference to the present'' \cite{butterfield-1965-whig}, we try to avoid the simplifying 
-view of seeing the past as a linear progression towards the present that some computer scientists
+view of seeing the past as a linear progression toward the present that some computer scientists
 make when talking about the history of our discipline. To this end, we extensively rely on primary
 references in the lecture notes and often refer to reviews written by historians.
 
@@ -318,7 +318,7 @@ and debates about formal verification and the limits of correctness of large sof
 For a computer scientists, perhaps equally interesting aspect of this paper might be the 
 interactions between cultures that have not happened yet. If our premise that interesting ideas
 appear when cultures interact is, indeed, true then the missing interactions point to areas
-where new ideas for programming langauges could come from.
+where new ideas for programming languages could come from.
 
 \subsection*{Analytical index: An outline of the paper} 
 
@@ -336,7 +336,7 @@ world.
 After some confusion about the terminology, the engineering culture introduces the notion of 
 a type in the context of programming languages. Many ideas about types are imported from 
 logic by the mathematical culture, where a related notion of type existed in work on the 
-foundations of mathematics. The engineering culture uses types for structing data, while the
+foundations of mathematics. The engineering culture uses types for structuring data, while the
 managerial culture adopts types as a mechanism for information hiding. Many of the ideas about
 types meet and the ML language appears. The mathematical culture starts thinking of types as
 a lightweight formal method and develops type systems that can prevent various kinds of errors.
@@ -353,7 +353,7 @@ starts looking for ways of training programmers, while the hacker culture starts
 The programming cultures meet at the 1968 NATO conference and the term ``software engineering''
 is born, however, each culture has its own interpretation of what ``turning the black art of
 programming into a proper engineering discipline'' means. Early work on building an anti-ballistic
-missile systems sparks a debate on fundamental limiations of software systems. The engineering
+missile systems sparks a debate on fundamental limitations of software systems. The engineering
 culture points out that software systems are not algorithms and considerations about building
 large and complex software systems convince some authors that software systems always need to
 be considered as socio-technological entities, together with humans that use and build them.
@@ -378,7 +378,7 @@ in system architecture.
 % Glitches: Slayton, p105
 In the late 1960s, academics, businesses and military realised that computers have the power
 to radically transform the way they work. Equally, computer glitches became increasingly visible
-and anecdotes about cancelled or massively delayed programming projects that significantly exceeded
+and anecdotes about canceled or massively delayed programming projects that significantly exceeded
 the planned budget have become a commonplace in the computing industry. 
 
 In this lecture, we follow one particular strand of history that, in the words of its proponents, 
@@ -388,7 +388,7 @@ history between the \emph{1968 NATO Conference on Software Engineering} and the 
 
 \says[Teacher]{You all have experience with programming electronic computers for different
 purposes. Let me start with a very open-ended question. Do you think there is a method for 
-programming computers that will minimze or even eliminate glitches?}
+programming computers that will minimize or even eliminate glitches?}
 
 \says[\Hacker]{Computer programming is a completely new discipline, so I'm not surprised that
 we need more time to figure out how to do it right. If you are curious enough, computers are
@@ -414,7 +414,7 @@ The black art of programming has to make way for the science of software enginee
 of methods such as building prototypes, rigorous testing, reliability engineering and hierarchical
 management structures. I'm not even sure where to start.}
 
-\says[\Mathematician]{Sorry to interrup, but we can do much better than building bridges. As we 
+\says[\Mathematician]{Sorry to interrupt, but we can do much better than building bridges. As we 
 learned with the development of Algol, computer programs are just syntactic structures in a 
 formal language defined by the rules of logic. All properties of program execution can be known
 from its text by purely deductive methods.}
@@ -435,7 +435,7 @@ from the understanding of lower-level structures in your program.}
 top-down fashion. You can proceed from the general design goal to specific implementation detail
 and let one architect manage the decomposition. If the languages and tools can support this pattern, 
 we can hire small number of experienced programmers to work on the high-level parts and a large 
-number of unsiklled programmers to solve the low-level problems.}
+number of unskilled programmers to solve the low-level problems.}
 
 \says[\Engineer]{You seem to be treating programming as a completely management problem. This
 is a wrong way of thinking about it and I, for one, absolutely refuse to regard myself as either
@@ -444,7 +444,7 @@ a managerial architect or technical puzzle-solver.}
 \says[Teacher]{I find it interesting that the concept of structured programming can be 
 interpreted in such two very different ways -- as a programming practice and a management method.
 However, I want to learn more about what \who{\Mathematician} suggested earlier. How can we reason 
-about comptuer programs formally to guarantee that they work correctly?}
+about computer programs formally to guarantee that they work correctly?}
 
 % social processes
 
@@ -472,7 +472,7 @@ true just by looking at the program.}
 programs are not the same thing as formal proofs in mathematics. A mathematical proof is 
 shared with colleagues, discussed at whiteboard sessions and checked by every student who
 learns it. This is what establishes its truth! Nobody will excitedly rush into your office with
-a printout of a 20 page tedious proof of some trivial fact abotu a simple program.}
+a printout of a 20 page tedious proof of some trivial fact about a simple program.}
 
 \says[\Mathematician]{This is a claim from a political pamphlet from the middle ages, rather than
 a sensible argument against formal verification! The validity of a proof does not depend on how 
@@ -490,7 +490,7 @@ correctness of standard algorithms that we teach our students at the university.
 \says[\Artist]{I'm not worried about the proofs of correctness of simple algorithms, but about 
 proofs that involve large systems. Those are the most tedious once that you want to get done,
 but nobody will want to read them. Just like mathematical proofs, they aim to give you guarantees, 
-but unlike mathematical proofs, they offer no new or deper insight.}
+but unlike mathematical proofs, they offer no new or deeper insight.}
 
 % cultures of proving
 
@@ -507,7 +507,7 @@ more importantly, that everyone in your team understands it and agrees on the sp
 \says[\Formalist]{Excuse me for jumping in, but do you claim this method will fully 
 eliminate all errors?}
 
-\says[\Engineer]{No. I don't think that is a reailistic expectation. You will still get some errors
+\says[\Engineer]{No. I don't think that is a realistic expectation. You will still get some errors
 that you need to fix during debugging, but the error rate will be significantly smaller.}
 
 \says[\Formalist]{Why settle for small error rate when you can reliably eliminate all of them!
@@ -605,7 +605,7 @@ complex real-world systems as the opening topic for our next session.}
 The use of mathematics for constructing and analysing computer programs is perhaps the most
 significant research paradigm in the modern academic programming community. Programming languages
 are described as formal languages using the methods of logic, we prove that algorithms employed
-by programming langauge implementations are correct and we use concepts from abstract algebra to 
+by programming language implementations are correct and we use concepts from abstract algebra to 
 structure our programming language abstractions.
 
 In this section, we trace the origins of the mathematical approach to programming and how it
@@ -633,7 +633,7 @@ sciences, rather than an object worth studying on its own.
 Many believed that programming errors will, over time, become as infrequent as hardware 
 errors \citet[p.254]{priestley-2011-operations}. To the physicists and the military, building and programming a 
 computer was seen as an auxiliary task that can be handed to a sub-contractor who will build the
-system according to a specfication within a fixed budget \cite[p.57]{slayton-2013-arguments}.
+system according to a specification within a fixed budget \cite[p.57]{slayton-2013-arguments}.
 
 While solving programming problems, the early computer programmers developed highly sophisticated
 methods and sophisticated tricks. As John Backus later said, ``Programming in the 1950s was a black 
@@ -667,16 +667,16 @@ about programming as a linguistic activity and of thinking about programming lan
 \emph{languages} became so ubiquitous in the programming discipline that we rarely even notice it.
 The linguistic metaphor came through cybernetics and the treatment of computers as electronic 
 brains. The problem of programming became conceptualized as a translation problem---how do we
-translate the problem description from a langauge that the human understand to a language that 
+translate the problem description from a language that the human understand to a language that 
 the electronic brain can understand. As noted by \citet{nofre-2014-lang} ``during the second half of the 1950s, 
 the language metaphor lost its anthropomorphic connotation and acquired a more abstract meaning, 
 closely related to the formal languages of logic and linguistics.''
 
 The most important aspect of the development, however, was that programming languages became 
 standalone objects, independent of hardware that implemented them, and began to be studied on 
-their own. The birth of programming langauge as an independent object happens at the intersection
+their own. The birth of programming language as an independent object happens at the intersection
 of three programming cultures. There was the hacker culture formed by the ``black art'' 
-programmers who actually implemented the first programming langauges. There was the mathematical
+programmers who actually implemented the first programming languages. There was the mathematical
 culture that provided most of the resources of logic for developing programming languages as 
 formal mathematical objects. However, and perhaps somewhat surprisingly, there was also the 
 managerial culture focused on solving problems with computers that provided motivation for 
@@ -703,7 +703,7 @@ research that aims to analyse programs and programming languages using the devic
 logic. For the academic community, the Algol research programme provided a 
 scientific research paradigm to which they could subscribe and contribute \cite[p.229]{priestley-2011-operations}.
 
-The 1962 paper \emph{Towards a Mathematical Science of Computation} by John McCarthy is a manifesto of 
+The 1962 paper \emph{Toward a Mathematical Science of Computation} by John McCarthy is a manifesto of 
 the Algol research programme. McCarthy notes that ``in a mathematical science, it is possible to deduce 
 from the basic assumptions, the important properties of the entities treated by the science'' and
 that programs in particular programming languages are one kind of entities that can be treated
@@ -712,11 +712,11 @@ proponents of the mathematical paradigm are still concerned with half a century 
 two procedures equivalent? Does a translation algorithm correctly translate procedures between two 
 programming languages? 
 
-A practical contribution towards reasoning about programs has been offered by \citet{hoare-1969-axiomatic} who 
-introduced the formalistm that is now known as Hoare tripples -- a notation $P\{Q\}R$ asserting 
+A practical contribution toward reasoning about programs has been offered by \citet{hoare-1969-axiomatic} who 
+introduced the formalistm that is now known as Hoare triples -- a notation $P\{Q\}R$ asserting 
 that if an assertion $P$ holds before the execution of program $Q$, then the assertion $R$ will hold
-afterwards. It is worth noting that Hoare also used a method that has become ubiquitous in 
-mathmeatical treatment of programming languages to this day. He described how to apply his method 
+afterward. It is worth noting that Hoare also used a method that has become ubiquitous in 
+mathematical treatment of programming languages to this day. He described how to apply his method 
 to a small subset of the ALGOL language.
 
 The idea of treating programming languages and programs as mathematical objects that can be
@@ -803,7 +803,7 @@ the program.
 Half a century later, most software systems built by the industry still ship with bugs and rely on  
 empirical testing. Proponents of the mathematical computer science paradigm today claim, just
 like their ideological ancestors did half a century earlier, that it is only a matter of economical 
-reasons and education. A number of arguments claiming that program verificiation, as advocated by
+reasons and education. A number of arguments claiming that program verification, as advocated by
 the proponents of the mathematical culture, is infeasible used arguments that are not merely 
 political, but approach the question from a deeper philosophical perspective. 
 
@@ -811,8 +811,8 @@ The idea of correctness proof imports notions from mathematics into programming.
 programming as a branch of mathematics, as the mathematical culture does, then this does not lead 
 to any issues. However, if we see programming as a discipline of its own, various problems arise.
 We consider a number of arguments that are share a common theme. They point out that program 
-correctness and its proof are not the same notions as mathematical thorems and their proofs as
-practiced by mahtematicians.
+correctness and its proof are not the same notions as mathematical theorems and their proofs as
+practiced by mathematicians.
 
 \subsection{Proofs in mathematical computer science}
 
@@ -831,7 +831,7 @@ the proof to a proof as understood in formal logic.
 
 In contrast, proofs of program correctness are bound to be secondary. The main reason for the existence 
 of a computer program is to run it. Proofs do not exist as main objects of knowledge, but 
-merely as certifications that programs match their specifications. This also explians some of
+merely as certifications that programs match their specifications. This also explains some of
 the differences in how the two communities treat mechanised proofs. On one 
 hand, many mathematicians remain cautious about the use of computer in proofs \cite{gold-2008-proof}.
 On the other hand, the idea that correctness proofs should be checked by a computer has been
@@ -841,7 +841,7 @@ become a main-stream method in computer science.
 In 1977, De Millo, Lipton and Perlis pointed out the difference between proofs in mathematics
 and computer science in a paper ``Social processes and proofs of theorems and programs'' \cite{demillo-1979-processes}, first 
 published in the ACM Symposium on Principles of Programming Languages (POPL) and later in the 
-Communications of the ACM. The paper triggered a controversy and was equally labelled as 
+Communications of the ACM. The paper triggered a controversy and was equally labeled as 
 ``Marvelous, marvelous, marvelous!'' and as ``a political pamphlet from the Middle 
 Ages'' \cite[p.197]{mackenzie-2001-proof}.
 
@@ -862,15 +862,15 @@ force that shapes the our knowledge.
 
 It is difficult to trace the direct effect that the De Millo et al. paper had on computer science.
 As noted by \citet{mackenzie-2004-proof}, the controversies triggered by the paper likely contributed to the
-decrease of fundint for formal verification, especially from the US military. However, many 
+decrease of funding for formal verification, especially from the US military. However, many 
 further developments around program correctness address the issues raised by De Millo et al., 
 even if they are not a direct response to the debate triggered by their paper. Two approaches 
 that we discuss next reflect two sides of the mathematical culture.
 
-\subsection{Mechanistist and intuitionalist culture of proving}
+\subsection{Mechanistic and intuitionalist culture of proving}
 The lack of social processes in proofs of programs can be addressed in two ways, depending on who
-do we want to convince about program correcntess. If we want to convince a human that a program
-is correct, we need social processes, though not necesarilly exactly the same as the ones that
+do we want to convince about program correctness. If we want to convince a human that a program
+is correct, we need social processes, though not necessarily exactly the same as the ones that
 mathematics has. If we want to convince a computer that a program is correct, we need to accept
 that program correctness proofs are of a different epistemological nature. For example, mechanised 
 proofs are perhaps better seen as technological artifacts \cite{sep-2017-cs}. These two 
@@ -899,7 +899,7 @@ specifications and rigorous proof. However, the goal of a proof was to convince 
 members that the program was correct. This was done through a social process akin to modern 
 code reviews. The social processes that were lacking in proofs of program correctness are 
 restored through the business organization, which recognized that additional time spent while
-reviewing (perhaps tedious) conformance to the specificiation will save time later. The process
+reviewing (perhaps tedious) conformance to the specification will save time later. The process
 of proving in the cleanroom methodology is fundamentally human. ``It is obvious'' is an acceptable
 proof if everyone agrees. It does not provide an absolute certainty, but when practiced well,
 it does notably decrease the defect rate \cite{mackenzie-2004-proof}.
@@ -945,10 +945,10 @@ simplified and, quite often, both of these.
 The two mathematical sub-cultures can, again, help us understand how specifications are written.
 On one hand, the aims of the mechanist culture are to provide specifications that can be, at least 
 in principle, checked automatically against an actual implementation. This requires that it is 
-written in a fully formal langauge and that it is as complete as possible. On the other hand, the 
+written in a fully formal language and that it is as complete as possible. On the other hand, the 
 aims of the intuitionist culture are to explain key aspects of the program behaviour to a human.
 For this reason, the specification can use natural language where appropriate and does not 
-necessarilly have to cover everything. It can focus on a subset of the program that is expected
+necessarily have to cover everything. It can focus on a subset of the program that is expected
 to be tricky and cannot be skipped as ``obvious''.
 
 An illuminating example is provided by the various attempts of formally defining the ALGOL 60
@@ -962,7 +962,7 @@ programmers working in the industry, as well as mathematicians.
 \citet{mccarthy-1964-algol} followed his aim of defining a mathematical science of computation and defined
 a formal mathematical semantics of a subset of ALGOL named Microalgol. McCarthy ``advocates 
 an extension of [his] technique as a general way of describing programming languages,'' but keeps 
-the langauge to a trivial subset (including goto, but omitting many other aspects of real ALGOL). 
+the language to a trivial subset (including goto, but omitting many other aspects of real ALGOL). 
 Similarly, in his \emph{An axiomatic basis for computer programming}, \citet{hoare-1969-axiomatic}
 chooses to study properties of a very simple language (with assignment and iteration, but without goto)
 Hoare notes that there ``does not appear to be any great difficulty in dealing with [most other
@@ -985,20 +985,20 @@ checking.
 
 Following one strand, it took a decade before a formal specification of a programming language was 
 used to develop a mechanically verified implementation \cite{moore-1989-verified} but a very small low 
-level language} and even longer before the same was done for a realistic main-stream programming 
-langauge \cite{leroy-2009-compcert}. Following another strand, the use of simplified mathematical
+level language and even longer before the same was done for a realistic main-stream programming 
+language \cite{leroy-2009-compcert}. Following another strand, the use of simplified mathematical
 models (in the style of Microalgol) has become a main-stream academic method for talking about
-programming langauge features \cite{igarashi-2001-java,milner-1999-pi}. In both cases, we fact the problem that
+programming language features \cite{igarashi-2001-java,milner-1999-pi}. In both cases, we fact the problem that
 theorems about programs are determined by the programs, which tend to be structurally complex,
 rather than by a community of mathematicians which strives for simplicity. The case of formal 
-langauge specifications is illuminating, becuase a compiler is structurally very simple (a 
+language specifications is illuminating, because a compiler is structurally very simple (a 
 semantics preserving transformation), yet the task of formally specifying it is huge. For more
 structurally complicated software systems, the situation is more difficult as we will see in 
 Chapter~X.
 
 \subsection{Mathematical models vs. physical systems}
 
-The next limiation of the idea of program verification as advocated by the mathematical culture
+The next limitation of the idea of program verification as advocated by the mathematical culture
 was pointed out by a philosopher James Fetzer. The idea came from an outsider rather than a member 
 of any specific programming culture, but \citet{fetzer-1988-idea} does not question the validity of proofs
 or the structure of theorems, but the very idea of proofs about programs. Although both programs
@@ -1041,12 +1041,12 @@ proof. This approach avoids the category mistake by changing the nature of the p
 abstract mathematical entity to a computer program, or a \emph{technical artifact} \cite{sep-2017-cs}.
 The correctness of the mechanical proof is decided by a computer and it is subject to the same
 limitations as any other program. As long as we do not treat it as a mathematical proof, we
-avoid making a cateogry mistake.
+avoid making a category mistake.
 
 The second approach is to be more conscious about working with an abstract model. The way the
 intuitionist sub-culture builds mathematical models is that they are often very simple
 (following McCarthy's Microalgol language). Proofs about such models do not provide guarantees
-about the reality (and the cutlure is aware of that), but the attempt to develop a proof often
+about the reality (and the culture is aware of that), but the attempt to develop a proof often
 leads to useful insights about the system. Although we cannot guarantee a correctness when using
 a simple model, a failure to prove correctness often points at an issue that also exists in the
 actual system and can be empirically observed. This way, a poof becomes an invaluable debugging
@@ -1067,11 +1067,11 @@ as the hacker culture. In 1960s and 1970s, two cultures aimed to make programmin
 The first was the managerial culture, which was focused on controlling the development process,
 and the computer personnel involved, and achieving predictable and reproducible results. 
 The second was the mathematical culture, which saw programming as a mathematical discipline
-that should be done in a systemathic way using the devices of logic.
+that should be done in a systematic way using the devices of logic.
 
-The mix of the three cultures gave birth to a programming langauge as a stand-alone object
+The mix of the three cultures gave birth to a programming language as a stand-alone object
 that can be described and studied independently of any of its implementations. The proponents
-of the mathematical culture argued that programming langauges are mathematical objects and
+of the mathematical culture argued that programming languages are mathematical objects and
 should thus be studied using the resources of logic. This did not have immediate influence
 on how programming was done in practice, but ideas such as structured programming were 
 communicated across cultures and developed a managerial interpretation. 
@@ -1125,7 +1125,7 @@ conversions... But I suspect that you are actually asking about the \emph{modes}
 and their arguments. 
 
 Arguments of a function can be either fixed or floating point; similarly the function itself may 
-be in either of these modes. You indeicate that a function is in the fixed point mode by starting
+be in either of these modes. You indicate that a function is in the fixed point mode by starting
 its name with the letter ``X'' and it also has to end with ``F'' to indicate that it is a 
 function.}
 
@@ -1141,11 +1141,11 @@ load!\footnote{\cite{univac-1957}}}
 
 \says[\Engineer]{I have read non-ACM articles on business data processing, but they suffer
 from one basic fault: They fail to report fundamental research in the data processing 
-field. I'm not interested in how a particualr Univac system implements records, but in the 
+field. I'm not interested in how a particular Univac system implements records, but in the 
 fundamental ideas behind the problem.\footnote{\cite{postley-1960-letter}}}
 
 \says[\Mathematician]{The fundamental research that we need to develop is a mathematical 
-theory of computation. This way, we can focus on fundamental ideas beind computing rather than
+theory of computation. This way, we can focus on fundamental ideas behind computing rather than
 on bits in computer memory. As for records, we can model basic numerical data spaces as sets and
 then construct derived data spaces using set operations such as product to model 
 records.\footnote{\cite{mccarthy-1959-basis}}}
@@ -1171,7 +1171,7 @@ what about pointers? That's a pretty important type if you ask me!}
 
 \says[\Mathematician]{You really should stop thinking about programming as fiddling with bits. 
 What do you need pointers for? To represent data structures such as lists or trees. Those can
-be mathematically modelled as recursive structures, which gives you higher level of abstraction,
+be mathematically modeled as recursive structures, which gives you higher level of abstraction,
 more suitable for reasoning about programming.}
 
 \says[\Engineer]{I don't think language designers should think of types as sets.\footnote{\cite{morris-1973-notsets}} 
@@ -1188,7 +1188,7 @@ model.}
 
 \says[\Manager]{I came across the idea that you are calling secrecy before, but under the name 
 \emph{information hiding}\footnote{\cite{parnas-1972-criteria}}. This is a great concept
-for managing a large team of programmers, beceause it lets you decompose a large system into 
+for managing a large team of programmers, because it lets you decompose a large system into 
 smaller parts that can be managed and developed independently. This is a much underappreciated
 aspect of types.}
 
@@ -1340,7 +1340,7 @@ documentation and enables tooling such as auto-complete...}
 
 \says[\Artist]{I also would not be that strict. In languages like ML, the static type system
 makes guarantees that allow eliminating runtime checks, but that is just one particular design.
-Langauges like Clu in 1970s had static type systems, but relied on runtime checks for some of 
+Languages like Clu in 1970s had static type systems, but relied on runtime checks for some of 
 their guarantees.\footnote{\cite{liskov-1974-adt}}}
 
 \says[\Formalist]{Excuse me, but referring to languages from the 1970s is not particularly 
@@ -1384,7 +1384,7 @@ use the same name likely makes it easier to exchange ideas between different com
 a language like ML, which brings all those ideas together, be ever born?}
 
 \says[\Mathematician]{That might be a valid point, but how do you want to talk about something that
-you cannot even celarly define?}
+you cannot even clearly define?}
 
 \says[\Artist]{That might be a problem for a mathematician, but humans do that using natural 
 language very day. The meaning is use. The meaning of a `type' is its use in the practice and 
@@ -1397,7 +1397,7 @@ goes'?\footnote{\cite{feyerabend-1975-against}}}
 \says[\Hacker]{You might not be able to directly compare and synthesize different theoretical 
 contributions concerning types, but that is not what programming is about! In the end, we care
 about what kinds of things we can achieve using types and those effects are something you can
-assses regardless of your definitions. Many different kinds of types can be used to build 
+assess regardless of your definitions. Many different kinds of types can be used to build 
 developer tooling, so just look at the end results!}
 
 \says[Teacher]{You made a very interesting point. You are arguing for a very pragmatic,
@@ -1427,7 +1427,7 @@ description of how to write functions accepting fixed-point (integers) and float
 the manual talks about `modes'. 
 
 The first modern usage of the term `type' appears in the Algol 58 report (Perlis, Samelson, 1958).
-\citet{martini-2016-types} documents that types in the Algol 58 report appeared during a meeting beteen the
+\citet{martini-2016-types} documents that types in the Algol 58 report appeared during a meeting between the
 ACM group and European group working on Algol in Zurich at the end of May 1958. He also points out
 a remarkable fact that ``the technical term appears to be just a semantical shift from the generic 
 one; in particular, there is no clue that in this process the technical term `type' from
@@ -1445,15 +1445,15 @@ unification of cultures from which the ML language was born.
 
 \subsection{Structuring data with types}
 Both FORTRAN and Algol 60 were born out of the engineering programming culture. They were designed
-for scientific applications and focused on representing numerical data. Arrays enabled modelling of 
+for scientific applications and focused on representing numerical data. Arrays enabled modeling of 
 vectors and matrices, but textual data were poorly supported and there was no support for 
-richer composed data structures \cite[p.244]{priestley-2011-operations}. In contrast, langauge designers 
+richer composed data structures \cite[p.244]{priestley-2011-operations}. In contrast, language designers 
 belonging to the business data processing culture were very much aware of the need for structured
 data. Flow-Matic developed by Grace Hopper and announced by the Remington Rand Corporation  
 in 1957 \cite{univac-1957} had a notion of 
 records that was later incorporated into COBOL \cite{bosak-1962-codasyl}.
 
-Although the idea of records was already in the air, the path towards integrating them to an 
+Although the idea of records was already in the air, the path toward integrating them to an 
 Algol-like language was more complicated. As discussed in the previous chapter, Algol was the
 result of mathematization of computer programming and it had strong roots in mathematical and
 engineering cultures as represented by the Association for Computing Machinery (ACM). Members of the
@@ -1471,7 +1471,7 @@ and COBOL ``have made a start in this direction, even though this start is hampe
 to what the authors presume are the prejudices of business men.'' 
 
 McCarthy proposed ``a way of defining new data spaces in terms of given base spaces''. His
-data spaces where modelled as sets and could be combined using the usual mathematical operations
+data spaces where modeled as sets and could be combined using the usual mathematical operations
 such as Cartesian product and union of (non-intersecting) sets. McCarthy also noted the importance
 of recursive definitions. As an example, the data space $S$ defined as $S=A\oplus S\times S$
 is the model of S-expressions over the alphabet $A$. This work was later refined and extended by 
@@ -1495,7 +1495,7 @@ syntax via a macro system.
 Mode declarations, including references, records (known as structures) and unions were incorporated
 into Algol 68, which has been criticized by many, including its design committee members, for
 abandoning the simplicity and elegance of Algol 60. One of the critics, Niklaus Wirth went on to
-develop the programming langauge Pascal \cite{wirth-1971-pascal}, which switched the terminology back and
+develop the programming language Pascal \cite{wirth-1971-pascal}, which switched the terminology back and
 started referring to custom data structures as \emph{types}. Pascal had records, (unchecked) 
 variants, arrays, range types and pointers.
 
@@ -1560,7 +1560,7 @@ the case in much of the present-day literature on programming.
 
 \subsection{The great unification and ML}
 So far, we traced the history from modes as used by early computer hackers to annotate what
-a block of memory represents to data types modelled by sets and the history of abstract data 
+a block of memory represents to data types modeled by sets and the history of abstract data 
 types which extended the concept of type with applications for information hiding. The last strand
 is the integration of types as known in mathematical logical and, in particular, in simply typed
 $\lambda$-calculus.
@@ -1574,7 +1574,7 @@ using $\lambda$-calculus \cite{landin-1964-eval,landin-1965-part1,landin-1965-pa
 
 In 1966, Landin wrote ``The next 700 programming languages'' \cite{landin-1966-700} which makes an 
 interesting logical shift. Rather than using the $\lambda$-calculus to give the semantics of an
-imperative language, the paper proposes the design of a family of langauges (ISWIM) \emph{based}
+imperative language, the paper proposes the design of a family of languages (ISWIM) \emph{based}
 on the $\lambda$-calculus. ISWIM remained unimplemented 
 and it is not clear whether Landin intended the language to be dynamically or statically typed,
 but it provided the foundations for a new family of functional programming languages. In 
@@ -1593,14 +1593,14 @@ now standard, formulation that ``well-typed programs cannot go wrong''.
 
 The ML type system brings together aspects from many different programming cultures. It uses types
 to track how are values stored in memory, which traces back to the hackers implementing modes in 
-FORTRAN. It suppors data types such as pairs and sum types (unions) which were born at the 
+FORTRAN. It suppers data types such as pairs and sum types (unions) which were born at the 
 intersection of engineering and mathematical cultures. It employs abstract data types, which were 
 born from the engineering tradition under the influence of information hiding, which also had 
 notable applications in the managerial culture. Finally, the system was structured using the ideas
 about types that date back to \citet{church-1940-types}. 
 
 Using the philosophy of scientific revolutions proposed by \citet{kuhn-1962-revolutions}, it would be tempting
-to see the erea before the birth of ML as pre-scientific and the great unification of ideas on 
+to see the era before the birth of ML as pre-scientific and the great unification of ideas on 
 types that happened with ML as the birth of a normal science. This would not be entirely 
 unjustified: there was no consensus on a particular theory of types in the pre-scientific era
 and the birth of the ML paradigm defined a set of methods and the kinds of questions that it
@@ -1633,7 +1633,7 @@ lightweight formal methods are type systems, the central focus of this book.''
 
 \subsection{Evolving the ML tradition}
 Documenting the history of the work on types in the ML paradigm is a topic for a separate paper.
-A good basic overview is provided by the collection of papers editted by \citet{pierce-2005-advanced}. The
+A good basic overview is provided by the collection of papers edited by \citet{pierce-2005-advanced}. The
 first group of papers makes types for various functional languages more precise and capable, 
 for example by tracking how a program uses memory. The second group extends the scope of types
 to both large-scale systems and low-level programming languages such as the assembly language.
@@ -1643,7 +1643,7 @@ is worth discussing in more detail.
 Seen as a lightweight formal method, the ML type system is very basic. ML guarantees that 
 abstractions are not violated and that expressions evaluate to a value of a right type, but
 that can be hardly seen as a system specification. In order to allow expressing more complex
-specifications, various ML extensions have been proposed and developed. Effect and coeffect
+specifications, various ML extensions have been proposed and developed. Effect and coeffect \cite{talpin-1994-effects,petricek-2014-coeffects}
 systems allow tracking what a program does to and requires from the environment in which it
 executes; refinement types allow narrowing down the set of values a type can represent and
 session types allow specifying how messages are exchange over network in a communication protocol.
@@ -1695,7 +1695,7 @@ the specification and the implementation.
 As a formal verification method, types can also provide a response to the two philosophical
 critiques of formal verification that we discussed in the previous chapter, that is, the 
 lack of social processes and the fact that formal verification is a category mistake. 
-Social processes involving types are not centered around proof checking, i.e. varifying that an 
+Social processes involving types are not centered around proof checking, i.e. verifying that an 
 implementation matches a specification. The type checker does that. However, types are still
 actively talked about in two ways. First, developers discuss types of common functions 
 and what they mean. For example, the type of the monadic \emph{bind} operation is 
@@ -1707,12 +1707,12 @@ a process with a human element, involving human checking and intuition.
 
 The meaning of a program is that it acts on the real world through a machine. Claiming that a 
 program is formally verified is a category mistake. We can formally prove that the source code 
-(as a formal mathematical entity) satisfies a spacification (another formal entity), but this does 
+(as a formal mathematical entity) satisfies a specification (another formal entity), but this does 
 not yet talk about how a machine running the program will affect the world. Types face the very
 same limitations, but the way the community uses them typically avoids the category mistake. 
 When we say ``a program is well typed'', we do not mean that it is guaranteed to do exactly what
 it should; we just mean that certain errors are eliminated. This is significant, because 
-danger is a self-negating prohpecy. Believing that a system may still be incorrect leads to 
+danger is a self-negating prophecy. Believing that a system may still be incorrect leads to 
 actions that reduce this danger; believing that no mistake is possible can have the opposite
 effect. \cite[p.301]{mackenzie-2004-proof}
 
@@ -1726,7 +1726,7 @@ to fully eliminate runtime checks, which type systems in the ML tradition genera
 
 However, a number of developments in the 2000s and 2010s take the idea of types in various 
 directions. As discussed, dependently typed languages were born out of the logical side of the 
-mathematical culutre. However, the mathematical culture also revisited the idea that types are 
+mathematical culture. However, the mathematical culture also revisited the idea that types are 
 sets. More interestingly, the engineering culture also developed different takes on types that
 emphasize uses of types for documentation and tooling.
 
@@ -1794,9 +1794,9 @@ intentionally chooses simpler, but unsound design.
 The TypeScript design follows a set of consistent design principles which are distinct from the 
 principles that are favoured by the ML paradigm. The motivation on tooling and producing simple 
 useful documentation for programmers means that it makes sense to sacrifice soundness for simplicity.
-However, since TypeScript compiles to JavaScript, the lack of soundess does not make the system unsafe.
-It remains to be seen whether the use of types in TypeScript can be reconcilled with perspectives
-of other cultures. So far, most proposales coming from other cultures propose to ``fix unsoundness''
+However, since TypeScript compiles to JavaScript, the lack of soundness does not make the system unsafe.
+It remains to be seen whether the use of types in TypeScript can be reconciled with perspectives
+of other cultures. So far, most proposals coming from other cultures propose to ``fix unsoundness''
 by making the type system more complex, which goes against the TypeScript design 
 principles \cite{vekris-2016-refinement,richards-2015-concrete},
 but some also propose to accept this design approach and replace the usual \emph{soundness} requirement
@@ -1847,11 +1847,11 @@ by Lakatos, they evolve through the process of \emph{proofs and refutations}. In
 looks at the history of the Euler characteristic of polyhedra, which relates vertices $V$, edges 
 $E$ and faces $F$ in a formula $V-E+F=2$. Over the history, people proposed counter-examples such 
 as polyhedra with tunnels or intersecting faces. Those led to various refinements of exactly what 
-sort of polyhedra the fomula applies to and what it says about other polyhedra.
+sort of polyhedra the formula applies to and what it says about other polyhedra.
 
 The situation with types is similar. The term type was adopted, likely independently, by the
 engineering culture and the mathematical culture. \citet{kell-2014-types} illustrates the disconnectedness of 
-the enginering culture from the mathematical culture in 1970s by the lack of cross citations 
+the engineering culture from the mathematical culture in 1970s by the lack of cross citations 
 between them. Gradually, the term `type' acquired even more meanings, but the cultures also became
 aware of work on types done by other cultures.
 
@@ -1862,7 +1862,7 @@ Similarly, the very fact that `type' does not have an unambiguous single definit
 it can be adapted by different programming cultures, yet it allows the exchange of ideas across
 cultures. For example, the early work on abstract data types (engineering culture) used runtime 
 checking, but it soon adopted idea of fully static checks enabled by the mathematical culture.
-In the oppositye direction, the idea of using types for editor tooling such as auto-complete in 
+In the opposite direction, the idea of using types for editor tooling such as auto-complete in 
 Java influenced similar tooling in languages following the mathematical tradition.
 
 Seeing types as boundary objects explains some of their value, but it limits the scope of what we
@@ -1881,7 +1881,7 @@ In his reflection on types, \citet{martini-2016-types} reached a similar conclus
 entire computer science discipline. ``The crucial point, here and in most computer science 
 applications of mathematical logic concepts and techniques, is that computer science never used
 ideological glasses (...), but exploited what it found useful for the design of more elegant,
-economical, usable artefacts. This eclecticism (or even anarchism, in the sense of epistemological 
+economical, usable artifacts. This eclecticism (or even anarchism, in the sense of epistemological 
 theory) is one of the distinctive traits of the discipline, and one of the reasons of its success.''
 The fact that the notion of `type' is a multi-cultural mix of ideas that have never been fully 
 integrated might well be the reason behind its success.
@@ -1898,7 +1898,7 @@ these strands were strongly influenced by the mathematical programming culture t
 in universities. 
 
 In this lecture, we will shift our focus from the mathematical culture to the managerial culture.
-The managerial cultrue should be seen in a broad sense, as covering the positions of businesses, 
+The managerial culture should be seen in a broad sense, as covering the positions of businesses, 
 managers but also the military. In other words, we take the perspective of those who want to build 
 complex computing systems and care more about the result than the process. We start at the end of 
 1950s when computers started to be used by businesses. 
@@ -1972,7 +1972,7 @@ has the same limitations as any empirical knowledge.}
 
 \says[\Engineer]{This is a useful insight. If we take what \who{Philosopher} says seriously, then
 we should treat specification as a scientific theory and subject it to empirical testing. When
-we build a system based on a theory, we should collect feedback on how well the modelling is 
+we build a system based on a theory, we should collect feedback on how well the modeling is 
 going. 
 
 For example, if an industrial robot develops an internal three-dimensional representation of a 
@@ -1992,7 +1992,7 @@ soon became the main source of problems.}
 
 \says[\Hacker]{I was going to propose a more recent example which has a similar structure. The
 infamous Y2K problem. Programmers of an early computer systems were using two digits to represent 
-year, because it never occured to them that the software would still be running after the year 1999. 
+year, because it never occurred to them that the software would still be running after the year 1999. 
 In other words, the environment changed in a way that the developers were not expecting.}
 
 \says[\Artist]{I think that all the partial problems we are talking about boil down to a simple 
@@ -2025,9 +2025,9 @@ in the industry have. However, it is not something that is widely reported in th
 literature.\footnote{\cite[p.105]{slayton-2013-arguments}}}
 
 \says[\Manager]{I understand that building large systems is difficult, but I have been using
-a number of systems in our company that work very realiably.}
+a number of systems in our company that work very reliably.}
 
-\says[\Engineer]{We can build a reliable syste, but they only get reliable through gradual 
+\says[\Engineer]{We can build a reliable system, but they only get reliable through gradual 
 improvement and adaptation. The first version will always have issues, but if you plan for that,
 you will be able to resolve them and improve the system when you start using it.}
 
@@ -2036,13 +2036,13 @@ testing of a global anti-ballistic missile system is impossible.\footnote{\cite[
 
 \says[\Artist]{I fear that building such anti-ballistic missile system would actually make 
 our country \emph{less} safe. It would give us a false feeling of safety and only encourage 
-politicians to pursue more aggresive politics. Rather than avoiding conflict, they might end up 
+politicians to pursue more aggressive politics. Rather than avoiding conflict, they might end up 
 triggering an attack that we wouldn't be able to defend against.}
 
 \says[Philosopher]{This also illustrates my second point, which is that the environment keeps
 changing. In the case of anti-ballistic missile systems, the environment is actively hostile. 
-The enemy will learn about your plans and adapt their attack so that it can circumvert your
-defenses. This makes it impossible to build a succesfull anti-ballistic missile system.}
+The enemy will learn about your plans and adapt their attack so that it can circumvent your
+defenses. This makes it impossible to build a successful anti-ballistic missile system.}
 
 \says[\Mathematician]{Now we are talking about politics. You are including way too much as part of
 your ``environment''. I thought we are discussing how to build software systems, not how to
@@ -2052,7 +2052,7 @@ decide what software systems are useful or ethical to build.}
 it is a very large-scale complex socio-technological system. Are there cases where something as
 simple as a phone app had similar problems?}
 
-\says[\Artist]{Well, there is the case of Google Photos app that labelled black people as gorillas
+\says[\Artist]{Well, there is the case of Google Photos app that labeled black people as gorillas
 using their machine algorithm for tagging. I do not doubt that their algorithm was, mathematically
 speaking, doing what it was supposed to be doing, but the results are just atrocious. When building
 software systems, you always need to include humans and, as in this case, account for their biases
@@ -2134,8 +2134,8 @@ technology \cite{parnas-1985-aspects}.
 
 In his history of computer programmers, \citet{ensmenger-2012-boys} makes an interesting observation. Despite
 the fact that software is one of the most successful and profitable industries of all time, 
-``corporate managers, academic computer scientists and governemtn officials [have been] releasing
-imniuous warnings about the desperate state of the software industry with almost ritualistic 
+``corporate managers, academic computer scientists and government officials [have been] releasing
+ominous warnings about the desperate state of the software industry with almost ritualistic 
 regularity'' for the last several decades. \cite[p.10]{ensmenger-2012-boys} Despite the developments
 discussed in the previous two lectures, and the optimism associated with them, building large
 software systems has always been difficult enough that commentators felt that the
@@ -2176,8 +2176,8 @@ expressions, rather than as machine instructions \cite[p.188]{priestley-2011-ope
 seen as a programming language, although it appeared before the idea of a programming language.
 
 The idea of capturing some of the common coding patterns using a shorthand form gradually 
-evolved into two most popular programming langauges of 1950s, namely FORTRAN and COBOL. These 
-two langauges came at the right time to provide potential solution to the labour crisis. FORTRAN
+evolved into two most popular programming languages of 1950s, namely FORTRAN and COBOL. These 
+two languages came at the right time to provide potential solution to the labour crisis. FORTRAN
 was a product of the mathematical culture and, as such, was mostly used in scientific and military
 applications. COBOL was a product of the managerial culture and was widely adopted by the data
 processing industry.
@@ -2209,7 +2209,7 @@ of formal verification and technical artifact such as types. The NATO conference
 abstract idea of ``software engineering'' did not provide a sufficiently strong link.
 
 Two cultures that developed their own answers to the problem of software engineering were the
-mathematical and managerial cutlures. The matheatical approach was discussed in the first 
+mathematical and managerial cultures. The mathematical approach was discussed in the first 
 lecture. It focused on developing programs that are provably correct with respect to their
 specification. For the managerial culture, ``the essence of the software-engineering movement 
 was control: control over complexity, control over budgets and scheduling, and, perhaps most 
@@ -2232,7 +2232,7 @@ engineering became known as the Waterfall model \cite{benington-1983-waterfall}.
 \subsection{Paradigm change in software engineering}
 
 A number of researchers and practitioners raised objections against the strictly structured
-sofware engineering methodolgy that was favoured by the managerial culture in the 1970s and 
+software engineering methodology that was favoured by the managerial culture in the 1970s and 
 1980s. A clear critical description of the current software engineering methods appeared in 
 1985 when David Parnas resigned from a computing panel on the Strategic Defense Initiative
 (``Star Wars''). \citet{parnas-1985-aspects} is a collection of brief papers arguing that the proposed Star Wars
@@ -2242,7 +2242,7 @@ be made to write such a document. We often do not know how to make those decisio
 play with the system.''
 
 A number of authors in the late 1980s recognised the heavyweight nature of the dominant top-down
-development methodolgies and proposed alternatives. One direction, presented by \citet{blum-1989-prototyping},
+development methodologies and proposed alternatives. One direction, presented by \citet{blum-1989-prototyping},
 is to use ``rapid prototyping as a technique to define (or refine) the initial specification.''
 Blum strikes a conciliatory note. He still accepts the importance of specifications, but proposes
 a better method for obtaining them for certain projects. A more radical vision has been presented
@@ -2279,7 +2279,7 @@ software industry. We started with the dominance of the ``black art'' software d
 practiced by the hacker culture in the 1950s, followed by rising criticism and the NATO conference
 at the end of 1960s. We followed the rise to prominence of the managerial programming culture in 
 the 1970s and 1980s, and its efforts to make software production a predictable process by following
-top-down structured development methodolgies. Finally, we saw the disillusionment with the 
+top-down structured development methodologies. Finally, we saw the disillusionment with the 
 managerial methods in the 1990s and the backlash that culminated with the agile software 
 development movement. The agile movement can, perhaps, be best seen as restoring a balance between 
 the hacker culture, engineering culture and managerial culture. An idealised agile development
@@ -2358,11 +2358,11 @@ largely simplified by the development of high-level programming languages and ``
 accidental tasks comprise] more than 9/10 of all effort, shrinking all the accidental activities 
 to zero time will not give an order of magnitude improvement.''
 
-One of the irreducible essences of modern software systems accorording to Brooks is its complexity:
+One of the irreducible essences of modern software systems according to Brooks is its complexity:
 ``software entities are more complex for their size than perhaps any other human construct.''
 The fundamental reason for this complexity has been clearly explained by Parnas, following his
 resignation from the Star Wars panel. \citet{parnas-1985-aspects} contrasts software systems with analog systems
-and with digital computers. Analog systems can be modelled using continuous functions and the
+and with digital computers. Analog systems can be modeled using continuous functions and the
 engineer merely has to make sure that components operate within their normal operating range.
 Digital systems are discrete and discontinuous. Before the advent of digital computers, the number
 of states was small enough to permit exhaustive testing. Digital computers have very large number
@@ -2373,7 +2373,7 @@ structure. Parnas concludes that this ``is a fundamental difference that will no
 with improved technology''.
 
 \citet{brooks-1987-silver} also recognised the fact that software systems are comprised of a large number
-of distinct, discrete elements and adds that, ass software systems get larger, the siutation only
+of distinct, discrete elements and adds that, ass software systems get larger, the situation only
 gets worse: ``scaling-up of a software entity is not merely a repetition of the same elements
 in larger size, it is necessarily an increase in the number of different elements. In most
 cases, the elements interact with each other in some non-linear fashion, and the complexity
@@ -2382,7 +2382,7 @@ of the whole increases much more than linearly.''
 \subsection{Continually changing environment}
 
 The second aspect of software systems that gives rise to fundamental limitations is that 
-software systems are embedded in and built in a conitnually changing environment. To quote
+software systems are embedded in and built in a continually changing environment. To quote
 \citet{brooks-1987-silver} one more time, ``the software product is embedded in a cultural matrix of 
 applications, users, laws, and machine vehicles. These all change continually, and their 
 changes inexorably force change upon the software product.''
@@ -2398,7 +2398,7 @@ system is better understood, but this ignores the fact that the environment will
 changing even after the system is specified.
 
 The fact that software needs to adapt to a changing environment also poses a fundamental 
-limiation on what systems can be built. This point was actively discussed as part of the debate
+limitation on what systems can be built. This point was actively discussed as part of the debate
 on anti-ballistic missile systems. The environment in which such systems operate evolves in 
 a number of ways: new systems are deployed, collaborations with allies add new systems to interface
 with and, most importantly, counter-measures by enemies are developed and deployed. This means
@@ -2418,7 +2418,7 @@ interact with the messy real world. This gap is the third source of fundamental 
 software systems. The mathematical culture of programming often writes as if the formal proofs
 of correctness that it produces were concerned directly with the physical reality. As already 
 discussed, the problematic nature of this assumption has been pointed out, in the context of 
-software verificiaton, by a philosopher \citet{fetzer-1988-idea}.
+software verification, by a philosopher \citet{fetzer-1988-idea}.
 
 The gap between the complex physical reality of the world that software interacts with and the 
 formal languages of specifications and program implementations has also been discussed from a 
@@ -2434,14 +2434,14 @@ some aspects of computation may be abstract, but action is not.''
 
 The fact that computer systems operate based on abstract models, but perform concrete actions is
 a fundamental limitation that cannot be avoided. \citet{naur-1993-place} argues that major issues of such models 
-are the ``modelling insight and the model building insigth'', both of which are ``concerned with the 
+are the ``modeling insight and the model building insight'', both of which are ``concerned with the 
 modellee and thus inherently involve items that are not strictly defined'' (i.e. informal). In 
 contrast, ``minor issues are concerned with models and model building elements, i.e. items composed 
 wholly of strictly defined items.'' Most notably, this includes the formal relationships between 
 two models such as program correctness.
 
-Naur criticises Dijkstra for claiming that ``only formal questions can be of scientific interest.''
-The questions concerning the modelling of the real world are of fundamental importance and are 
+Naur criticised Dijkstra for claiming that ``only formal questions can be of scientific interest.''
+The questions concerning the modeling of the real world are of fundamental importance and are 
 typically glossed over by many computer scientists. To use Naur's own words, ``it is curious to 
 observe how the authors in this field, who in the formal aspects of their work require painstaking
 demonstration and proof, in the informal aspects are satisfied with subjective claims that have not 
@@ -2471,9 +2471,9 @@ makes and the reality of building software systems.
 mathematical methods and quotes Dijkstra who contrasts the ``scientific questions of correctness''
 with ``the unformalized question whether a tool (...) is in such-and-such unformalized and 
 ill-understood environment a pleasant tool to use.'' Dijkstra talks of pleasantness which is 
-``a somewhat euphemistic word to use about such calamities as aeroplanes colliding in mid air or 
+``a somewhat euphemistic word to use about such calamities as airplanes colliding in mid air or 
 atomic reactors exploding'' as a result of misunderstood informal requirement. It is thus important
-to understand that the fundamental limitations proposed by Naur, Smith, Wizenbaum and Brooks
+to understand that the fundamental limitations proposed by Naur, Smith, Weizenbaum and Brooks
 are not less scientific than those given by the theory of algorithms. They are fundamental
 limitations of a nature that cannot be analysed by other means.
 
@@ -2483,7 +2483,7 @@ When the Information Processing Techniques Office (IPTO) was founded by ARPA in 
 director J. C. R. Licklider actively pursued a vision of man-computer symbiosis \cite{licklider-1960-symbiosis}
 that, among other things, provided funding for work on graphical displays, 
 interactive computing and the internet \cite{waldrop-2001-dream}. One of the reasons that we do not 
-commonly see the entire computing field as dealing with socio-technological systems migh well be 
+commonly see the entire computing field as dealing with socio-technological systems might well be 
 that the early military computing efforts were focused on building fully automatic systems and so
 the majority of remaining funding from ARPA and the Department of Defense favoured research that 
 benefited this goal. Yet, seeing humans as an inherent part of the computer 
@@ -2512,7 +2512,7 @@ This is not merely a matter of being able to build systems to a deadline, using 
 \citet{mackenzie-2004-proof} collected a data set of 1,1000 deaths up to the end of 1992 where a computer system 
 was involved. The result of MacKenzies's analysis is that ``over 90 percent of these deaths were 
 caused by faulty human-computer interaction (often the result of poorly designed interfaces or of 
-organizational failings as much as of mistakes by individuals). Physical fault ssuch as 
+organizational failings as much as of mistakes by individuals). Physical fault such as 
 electromagnetic interference were implicated in a further 4 percent of deaths, while (...), software 
 bugs, caused no more than 3 percent, or thirty, deaths: two from a radiation-therapy machine whose 
 software control system contained design faults, and twenty-eight from faulty software in the 
@@ -2522,7 +2522,7 @@ systems that do not cause harm to humans.
 
 Yet another example of this appears in machine learning and artificial intelligence. There are 
 many systems that operate according to their specification and could, conceivably, be proven 
-correct, yet, they lead to undesirable behaviour that is fequently labelled as a bug. Examples of 
+correct, yet, they lead to undesirable behaviour that is frequently labeled as a bug. Examples of 
 these include Google Translate translating Russia to `Mordor' and Google Photos tagging black people 
 as `gorillas' \cite{guardian-2016-mordor,guardian-2015-racist}. 
 The algorithms behind those bugs were likely correct, as documented by the difficulty 
@@ -2580,7 +2580,7 @@ of correctness.
 Viewing software as a part of a wider socio-technological system is also fundamental when 
 considering large-scale software systems. This issue has been discussed in a study that explores the 
 problems with building ultra large-scale software systems (ULS) that comprise billions of lines of 
-code, millions of computers and sensors, developed gradually in a decentralised fashion over 
+code, millions of computers and sensors, developed gradually in a decentralized fashion over 
 multiple decades. Because of the scale, such system will be continually under development and even 
 rare boundary conditions occur often enough that something will always be failing \cite{northrop-2006-ultra}.
 
@@ -2638,7 +2638,7 @@ engineering'' was mainly motivated by the desire for control over budgets, sched
 also the hard-to-understand hacker workforce. However, software engineering also gradually became
 a technical discipline. As methodologies based on writing a detailed specification upfront 
 reached their limits during the application crisis of 1990s, the engineering programming 
-culture defined a new approach to system building through the agile methodology that favours
+culture defined a new approach to system building through the agile methodology that favors
 gradual development, direct interaction with the customer and immediate feedback.
 
 \subsection{Systems and their limits}
@@ -2657,7 +2657,7 @@ can also be formally specified. Such specification is simpler and more readable 
 implementation of the compiler, which makes the mathematical approach particularly appealing.
 
 The managerial and engineering cultures are concerned with complex systems, lacking clear
-specificiations, built in an evolving environment. Such complex systems can only be mastered 
+specifications, built in an evolving environment. Such complex systems can only be mastered 
 if they are ``developed progressively, with the aid of extensive testing, and then operated 
 more or less continually in a somewhat lenient and forgiving environment.'' \cite[p.119]{slayton-2013-arguments}
 The progressive development makes it possible to gradually understand the problem and specify 
@@ -2693,7 +2693,7 @@ those were the masters of ``black art'' of computer programming, but a similar l
 still exists in highly technical, especially open-source, programming projects such as the Linux
 kernel or many programming languages where communities even recognised such role through the
 Benevolent Dictator for Life (BDFL) title. The mathematical programming
-culture trusts systems based on a mathematical proof about them. This is oftne the case even if
+culture trusts systems based on a mathematical proof about them. This is often the case even if
 the mathematical proof is not about the entire system, but about a formal model of a small part
 of it. The trust in proofs may be established through a social process or through
 a mechanical checking, although we noted earlier that both of these may pose a philosophical
@@ -2800,7 +2800,7 @@ history first. Has testing become popular before or after debugging?}
 
 \says[\Manager]{Proper testing only came when programming started becoming ``software engineering''
 and replaced the arcane methods of development that \who{\Hacker} keeps talking about with a more
-rigorous methodolgy following the 1968 NATO conference. Testing became a part of the software 
+rigorous methodology following the 1968 NATO conference. Testing became a part of the software 
 development process. It was used to make sure the program solves the specified 
 problem.\footnote{\cite{gelperin-1988-testing}}}
 
@@ -2878,7 +2878,7 @@ specification is developed gradually and written in form of tests sounds quite e
 \says[\Artist]{This debate has taken an unexpected turn! When I think of testing, I just think of
 writing a simple script to explore an idea, or running a command interactively. You just turned
 testing from a simple programming practice into an entire software development methodology. 
-I bet it won't be long before someone gives your development methodology a three-letter accronym
+I bet it won't be long before someone gives your development methodology a three-letter acronym
 and starts offering expensive certifications confirming that you are doing it in the `one true way'!}
 
 \says[Teacher]{Before we get too distracted speculating about business ideas, I would like to get
@@ -2931,7 +2931,7 @@ via a global variable.}
 
 \says[\Engineer]{The way exception handling is implemented in PL/I is a good first step, but it is
 very cumbersome. Rather than using non-local jumps, exception handlers should be associated with
-operations or blocks of operations. Signalling an exception is then more akin to the ``break''
+operations or blocks of operations. Signaling an exception is then more akin to the ``break''
 statement for multilevel loop exiting.
 
 The ability to resume computation after an exception is triggered makes them
@@ -2952,7 +2952,7 @@ of programs.}
 \says[\Artist]{Intriguing! You are not talking about just restarting the same program. You 
 are suggesting that we design and implement multiple variants of the same logic...}
 
-\says[\Engineer]{This can certianly be done. For each operation that you want to make fault 
+\says[\Engineer]{This can certainly be done. For each operation that you want to make fault 
 tolerant, you would specify one or more conditions that determine whether it produced an 
 acceptable result. Then you specify a primary implementation and a series of alternative 
 implementations that might not be perfect, but would still allow the program to 
@@ -2995,7 +2995,7 @@ of the engine to be a problem. In 1837, he even wrote that ``if trials of three 
 have been made, and are found to agree with the results given by the engine, it is scarcely possible 
 that there can be any error among the cards.'' \cite{babbage-1982-engine} The belief that programming does not 
 pose significant difficulties prevailed through the early days of digital computers during 1940s. In 
-early 1950s, the designers of the SAGE air defence system were still thinking of programming as a 
+early 1950s, the designers of the SAGE air defense system were still thinking of programming as a 
 more versatile and flexible version of physical electronics \cite[p.18]{slayton-2013-arguments}.
 
 The inherent complexity of software systems, caused by the fact that software is made of a large 
@@ -3013,7 +3013,7 @@ mathematical methods for program construction or the development of managerial p
 of controlling the unpredictable workforce. Half a century later, the computer industry has become
 one of the most successful and profitable industries of all time, \cite[p.228]{ensmenger-2012-boys} without
 adopting any of the fundamental methods advocated by some of the different programming cultures.
-This was a surpirse to many. Tony Hoare, prominent member of the mathematical culture, aimed to 
+This was a surprise to many. Tony Hoare, prominent member of the mathematical culture, aimed to 
 answer the question of ``How did software get so reliable without proof?'' in his eponymous 1996 
 paper. He concludes that the answer is likely due to a mix of good engineering practices including
 ``rigorous management of procedures for design inspection and review; quality assurance based on a 
@@ -3033,7 +3033,7 @@ Despite a popular tale, the term `bug' was not introduced into the vocabulary of
 Grace Murray Hopper removed a dead moth from one of the circuits of the Harvard Mark~1 computer.
 Hopper has, in fact, removed a dead moth and kept it in her logbook, but the term `bug' has been 
 adopted from contemporary engineering slang. Perhaps the earliest recorded use of the term in the 
-modern stense dates back to the end of the 19th centure and reports on ``Mr. [Thomas] Edison (..) 
+modern sense dates back to the end of the 19th century and reports on ``Mr. [Thomas] Edison (..) 
 discovering a `bug' in his phonograph.'' By calling the flaws `bugs', engineers also suggested 
 that the issues are minor and can be easily fixed with a little bit of effort \cite{kidwell-1998-stalking}.
 This proved to be an ironic naming, given that the estimate cost of work done on fixing 
@@ -3152,7 +3152,7 @@ knowledge plays a major part in how the hacker culture contributes to the elimin
 computer programs. 
 
 The early proclamations that liken programming to ``black arts'' or alchemy seem to be right in 
-one way. Just like the debugging knowledge possesed by the hacker culture, experimental knowledge
+one way. Just like the debugging knowledge possessed by the hacker culture, experimental knowledge
 of alchemists was also not widely reported and shared. In case of alchemy, this was for sectarian
 reasons, while in case of debugging, this seems to be for practical reasons. Debugging is a kind of
 skill that is learned through practice, rather than studying texts about it. However, this lack of
@@ -3182,7 +3182,7 @@ with the managerial culture and with the engineering culture.
 
 Following the 1968 NATO conference on Software Engineering, numerous efforts were made to turn 
 programming into a ``proper engineering discipline.'' The managerial approach to the problem was 
-modelled after industrial factories. The software factory would follow a development process that
+modeled after industrial factories. The software factory would follow a development process that
 leads to reliable software production, without relying on particular skills of individual 
 programmers \cite[p.60]{ensmenger-2012-boys}. Such development processes often included different kinds of 
 testing as one of the steps or phases, however testing played a different role over time.
@@ -3199,7 +3199,7 @@ based on case analysis.
 
 The next period of software testing that Gelperin and Hetzel refer to as ``destruction-oriented''
 period started in 1979 with the publication of ``The Art of Software Testing'' by \citet{myers-1979-art}.
-Meyers sees testing as ``the process of executing a program with the intent of finding errros''.
+Meyers sees testing as ``the process of executing a program with the intent of finding errors''.
 This way of looking at testing encourages a test selection method that is more likely to find
 faults and discover edge cases that might not be considered when the aim is to make sure that a
 program works as required.
@@ -3246,7 +3246,7 @@ controlling the development process. When implementing a new feature using TDD, 
 a failing test that documents and specifies the desired behaviour. Then you write code until the
 test passes and, finally, you refactor your code to improve its internal structure. 
 
-Testing as practiced by the TDD methodolgy forms an interesting blend of activities that were 
+Testing as practiced by the TDD methodology forms an interesting blend of activities that were 
 envisioned in a different way by different programming cultures. It keeps the quick feedback 
 provided by program checkout that was always important for the hacker culture; tests become a 
 form of partial software specification that the mathematical programming culture required; 
@@ -3313,7 +3313,7 @@ influenced by the work in software engineering and the engineering culture.
 
 An exception handling construct that shares many aspects with modern exceptions as known from,
 for example, Java has been proposed by \citet{goodenough-1975-exceptions}. The work appeared first in the Principles
-of Programming Langauges conference and later in the Communications of the ACM, but it was written
+of Programming Languages conference and later in the Communications of the ACM, but it was written
 by a software engineering researcher working on issues of software reliability \cite{ryder-2005-impact}.
 Goodenough introduced a way of attaching exception handlers to syntactic units of code. The
 exceptions included a number of language-defined exceptions (e.g.~\ident{OVERFLOW}), but it also
@@ -3329,10 +3329,10 @@ handling mechanisms ``are needed, in general, as a means of conveniently interle
 actions belonging to different levels of abstraction'' and, finally, \citet{liskov-1993-clu} reflects that
 exceptions in CLU are ``a general way of conveying information from a called procedure to its 
 caller.'' It is a curious fact that a similar situation occurred in three distinct programming 
-langauges. One intereptation is that exceptions were motivated by a practical concern of the 
+languages. One interpretation is that exceptions were motivated by a practical concern of the 
 engineering programming culture, but their integration into the hacker culture of programming
 languages invited other applications that were unanticipated by the engineers and became apparent
-to the hackers with thier arcane practical knowledge.
+to the hackers with their arcane practical knowledge.
 
 Exception handling might have initially been conceived as a mechanism for dealing with system 
 faults such as numerical overflows or reading of data after the end of the file, but it soon 
@@ -3383,7 +3383,7 @@ uncertainty.
 
 An automatic system that induces failure at a large scale 
 has been first implemented by Netflix under the name of ``Chaos Monkey''.
-A Chaos Monkey is an agend that shuts down virtual machines in the production environment at
+A Chaos Monkey is an agenda that shuts down virtual machines in the production environment at
 random. This ensures the reliability not just of the infrastructure, but also the human element.
 The increased frequency of failures make it possible to develop better methods for coping with them
 and, consequently, the socio-technological system becomes more resilient through failure.
@@ -3419,7 +3419,7 @@ programming team.''
 The influence that the ideas of modularity and information hiding had on programming languages 
 during 1980s has been documented by \citet{ryder-2005-impact}. Object-oriented programming languages
 adopted the idea of information hiding as one of the key design principles. One of the three 
-characteristics of object-oriented langauges given by \citet{cardelli-1985-types} is that 
+characteristics of object-oriented languages given by \citet{cardelli-1985-types} is that 
 ``they contain objects that are data abstractions with a defined interface and hidden state.''
 Information hiding in object-oriented programming languages also supports a certain managerial
 structure of software development. Systems can be decomposed into independent components that
@@ -3453,7 +3453,7 @@ Each of the cultures of programming has their own, strongly held, beliefs on wha
 be used to build reliable software. The mathematical culture beliefs this should be done through
 formal proof; the hacker culture beliefs in the skills of individuals; the engineering culture 
 in the development of appropriate tools and practices and the managerial culture favors designing 
-a robus organisational structure. However, the cultures always mix and many ideas that originate 
+a robust organisational structure. However, the cultures always mix and many ideas that originate 
 in one culture are interpreted and used differently by another culture. In practice, the tools,
 methods and practices that make modern software ``function tolerably well'' are very often a 
 product of mixture of cultures.
@@ -3471,7 +3471,7 @@ The first two strands discussed in the lecture start with ``program checkout'' a
 the hacker culture in 1950s. This later evolved into two separate ideas, debugging and testing.
 While debugging remained mostly a hacker practice, testing was adapted by the managerial culture
 in the 1970s and 1980s and became a part of the application development lifecycle. Later, it also
-became a key component of the engineering practice of test-driven development. The thrid strand
+became a key component of the engineering practice of test-driven development. The throed strand
 that we discussed was exception handling, which also originated with the hacker culture, but later
 acquired new engineering interpretations and, in recent years, also served as a source for
 ideas developed in the managerial culture.
@@ -3479,7 +3479,7 @@ ideas developed in the managerial culture.
 Comparing the history of debugging and testing, raises an interesting question. Why do some of the 
 concepts cross cultures and evolve more than others? We offer two potential answers. First, 
 testing is done through tests, which can be seen as technical artifacts that are, to some extent,
-indepentent of cultures. This situation seems similar to the case of types which are also
+independent of cultures. This situation seems similar to the case of types which are also
 shared, but seen differently by different cultures. As pointed out earlier, this makes them
 boundary objects in a sociological sense. The other possible explanation is that the different
 cultures favor different kinds of knowledge. In particular, the hacker culture often relies on
@@ -3513,7 +3513,7 @@ software engineering became disciplines, most people working with computers came
 of backgrounds including logic, electrical engineering and business. However, these different 
 cultures brought with them unique perspectives that have never been assimilated into a single
 all-encompassing culture. We believe that this is not a sign that computing is an immature field,
-but instead, a sign that it developed a frutiful multi-cultural identity.
+but instead, a sign that it developed a fruitful multi-cultural identity.
 
 As documented in this paper, when cultures meet, interesting things happen. We focused on two 
 kinds of interesting things: technical artifacts and controversies. The most notable technical
@@ -3535,15 +3535,15 @@ and technical artifacts we discussed. As a result, this paper has omitted certai
 In particular, there certainly is an artistic culture of programming within which computers are
 used as a medium for creativity. This culture has, so far, been somewhat marginal, perhaps because
 of the financial incentives in the computing industry. However, the artistic culture of programming
-had certainly influenced programming languages such as LOGO, Smalltalk and, more recently, work on
-live coding environments such as Supercollider and Sonic PI. Another culture that has been 
+had certainly influenced programming languages such as LOGO \cite{feurzeig-1969-logo}, Smalltalk \cite{goldberg-1983-smalltalk} and, more recently, work on
+live coding environments such as Supercollider and Sonic PI \cite{mccartney-2002-supercollider,aaron-2013-sonic}. Another culture that has been 
 influential in the early days of computing is the one that gave birth to cybernetics, a 
 multi-disciplinary study of self-regulatory systems. Despite its prominence in 1950s and 1960s, it
 seems that cybernetics has had little influence on the design of programming languages as of yet. 
 
 \section{Characteristics of programming cultures}
 
-The four programming cultures that we identified in this paper are well recognisable based on
+The four programming cultures that we identified in this paper are well recognizable based on
 the principles they follow, methods they advocate and ways of working with knowledge. That said,
 historical actors do not necessarily belong to just one programming culture. For a number of 
 people quoted in this paper, their allegiance to a certain culture is clear and does not change
@@ -3573,8 +3573,8 @@ due to the intellectual appeal of mathematical knowledge that \citet{lakoff-2000
 of Mathematics''.
 
 The engineering and managerial cultures are perhaps the most closely related ones of the four
-cultures we discussed. They both believe in imporving the quality of software by developing and
-following suitable methodolgies. These often consist of processes that should be followed and
+cultures we discussed. They both believe in improving the quality of software by developing and
+following suitable methodologies. These often consist of processes that should be followed and
 tools that can be used to guide and automate some aspects of the process. However, the managerial 
 culture focuses on developing processes that provide control over the workforce and often focus 
 on training and structure of teams. The goal is to have a process that, on average, eliminates 
@@ -3599,7 +3599,7 @@ standard for legitimate scientific work. A paradigm is implicit and is formed by
 methods and practices that scientists learn during their training. Normal science is concerned
 with solving problems (or puzzles) within the scope of the paradigm. A paradigm shift is a slow
 process that happens when a paradigm accumulates enough problems that it cannot effectively solve 
-using its own methods. A research programme introduced by \citet{lakatos-1980-methodology} is an attempt to reconcille
+using its own methods. A research programme introduced by \citet{lakatos-1980-methodology} is an attempt to reconcile
 Kuhn's ideas with Popper's falsificationism \cite{popper-1959-logic}. The idea of a research programme 
 recognizes that some principles are more basic than others. Faced with an experimental failure, a 
 scientist never blames such hard core assumptions, but instead addresses the issue by modifying 
@@ -3621,7 +3621,7 @@ history of programming? I believe that this is not the case. The controversies d
 paper are a historical fact and seeing them as a clash between cultures of programming provides
 a constructive way of analysing and explaining them. Similarly, the idea of programming cultures
 allowed us to shed a new light at the historical developments concerning technical artifacts and 
-programming langauge featues such as types, tests or exceptions.
+programming langauge features such as types, tests or exceptions.
 
 \newpage
 
