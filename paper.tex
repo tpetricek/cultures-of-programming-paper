@@ -7,6 +7,42 @@
 
 \citestyle{acmauthoryear}
 
+% PREREVIEW
+%
+%   We are aware that you had discussed with the program chairs the possibility of writing a survey 
+%   or "historical essay" on the topic of error handling.  This submission has turned out to be rather 
+%   different, not only from that topic but from the general style and organization of previous HOPL 
+%   papers.  It is certainly a historical essay.  Two pieces of advice.  First, the existence of the 
+%   four cultures examined should not simply be taken for granted; at least some argument for their 
+%   actual existence and significance should be offered.  Second, one reader found the dialogues 
+%   difficult to follow because identifying the participants by the names of Greek letters gives no 
+%   clue to either their intellectual stances nor their personalities, so it is hard to keep straight 
+%   who said what, and why; labels such as "Teacher" and "Philosopher" were more helpful.
+
+% FEEDBACK
+%
+% p12 - it would be useful to include references that exemplify the two different approaches to microservices
+% \% @ references to MacKenzie�s book: 2001 and 2004
+% p16 �we fact the problem�
+
+% HOW TO RESPOND?
+%  - I accept this is not a typical format, but it is still a valuable contribution in the
+%    spririt of HOPL. First, it further develops the 'miscomputation' paper in a direction that
+%    I promised to follow - use discussion about errors as a lens for understanding the discipline.
+%    Second, it provides a framing for many other HOPL papers. Arguably, computer scientist is
+%    in a good position to provide the framing with respect to current CS knowledge and as such,
+%    this should be in HOPL.
+%
+%  - rename characters
+%
+%  - due to time constraints, I won't be able to make larger changes, but...
+%    the nature of cultures is that they are not explicit (as discussed in Section~X)
+%    and as such, they cannot be direclty historically identified (e.g. nobody says 
+%    "I belong to culture X"), but I will improve the paper by 1) providing clear characteristic
+%    of the cultures early in the paper (this is at the end now) and 2) in the detailed discussions,
+%    point out how different historical actors and papers behave/write according to their culture
+% 
+
 % Metadata Information
 % \acmJournal{JACM}
 % \acmVolume{9}
@@ -246,13 +282,107 @@ researcher, the paper might also point at new, yet unexplored, intersections bet
 \newcommand{\kvd}[1]{\textnormal{\textcolor{kvdclr}{\sffamily #1}}}
 \newcommand{\ident}[1]{\textnormal{\ttfamily #1}}
 
-\newcommand{\Engineer}{Epsilon}
-\newcommand{\Manager}{Omega}
-\newcommand{\Hacker}{Alpha}
-\newcommand{\Philosopher}{Phi}
-\newcommand{\Mathematician}{Tau}
-\newcommand{\Formalist}{Lambda}
-\newcommand{\Artist}{Gamma}
+\newcommand{\Engineer}{Engineer} % Epsilon
+\newcommand{\Manager}{Manager} % Omega
+\newcommand{\Hacker}{Hacker} % Alpha
+\newcommand{\Philosopher}{Philosopher} % Phi
+\newcommand{\Mathematician}{Mathematician} %Tau
+\newcommand{\Formalist}{Formalist} % Lambda
+\newcommand{\Artist}{Artist} % Gamma
+
+\newpage
+\section*{Note to reviewers}
+
+The initial phase of reviewing provided useful feedback on improving this essay. I am not able 
+to incorporate the feedback before the first round of full reviewes due to other obligations and 
+the fact that this option was not initially advertised. However, I would like to acknowledge the 
+feedback and briefly outline how I intend to address some of the concerns.
+
+Most notable revisions will focus on clarifying the nature of the concept of \emph{culture of programming} that
+is central to this paper. In particular, the revised paper will provide additional evidence for 
+the existence of different cultures, it will describe their characteristics and it will clearly
+reference these cultures throughout the paper. More specifically:
+%
+\begin{enumerate}
+\item I will use more obvious names for characters appearing in the lecutres, or introduce the 
+  characters explicitly in the introduction and state what culture they belong to (the former is 
+  already done in this version of the paper).
+
+\item I will provide explicit characterization of the cultures early in the paper and refer to their 
+  characteristics when claiming that a certain contribution came from a particular culture. For 
+  example, mathematical and engineering culture might differ in the scale of examples they use 
+  (mathematical culture favors small tractable examples while engineering culture favors large
+  scale case studies). An extensive footnote material documenting such characteristics will 
+  provide evidence for the differences between the cultures.
+
+\item In addition to the assumptions made, types of examples used and a way of writing, I will also look for 
+  historical evidence in the form of events, research projects and institutions. For example, there are 
+  likely typical conferences that members of a particular culture present at (say, ACM~POPL) and typical 
+  institutions that they are members of (say, ACM~SIGSOFT). Notably, though, the focus of conferences and
+  organisations may evolve over time.
+
+\item The current draft contains a brief section on the nature of cultures of programming from the perspective 
+  of philosophy of science and relates cultures to established notions such as research programmes and 
+  research paradigms (Section~\ref{sec:nature}). This section will be revised to discuss why   
+  established notions do not suitably capture the developments in the history of programming
+  and how the idea of a culture provides a better model.
+
+\item I will provide additional references to works that identify social structures closely 
+  related to ``cultures of programming'', both in programming and in other disciplines. The essay
+  already refers to \citet{livingston-1999-cultures}. Another relevant example, not included
+  in the original submission is a paper by \citet{goguen-1992-drywet} who even uses the term ``culture'' and 
+  identifies a number of cultures in computer science, partly overlapping with the ones discussed
+  in this esssay.
+\end{enumerate}
+%
+As pointed out by the reviewers, this essay does not follow the typical format used by past HOPL
+papers. However, it follows directly from research on the history of errors and I will emphasize
+that an attitude towars errors is one of the identifying characteristics of a programming culture.
+As noted in my earlier work \cite{petricek-2017-miscomputation}, \emph{``[considering programming] 
+through the perspective of program errors (...) provides a new way of defining 
+programming paradigms and thinking about software more generally''}. This is exactly what the
+present essay aims to achieve.
+
+Despite the different format, I believe that this essay fits well with the spirit of HOPL. It 
+documents the history of programming languages with respect to the current computer science
+knowledge. However, rather than documenting the history of one particular language, 
+this essay provides a framing for reading and for contextualizing histories of individual 
+programming languages. 
+
+
+%   We are aware that you had discussed with the program chairs the possibility of writing a survey 
+%   or "historical essay" on the topic of error handling.  This submission has turned out to be rather 
+%   different, not only from that topic but from the general style and organization of previous HOPL 
+%   papers.  It is certainly a historical essay.  Two pieces of advice.  First, the existence of the 
+%   four cultures examined should not simply be taken for granted; at least some argument for their 
+%   actual existence and significance should be offered.  Second, one reader found the dialogues 
+%   difficult to follow because identifying the participants by the names of Greek letters gives no 
+%   clue to either their intellectual stances nor their personalities, so it is hard to keep straight 
+%   who said what, and why; labels such as "Teacher" and "Philosopher" were more helpful.
+
+% FEEDBACK
+%
+% p12 - it would be useful to include references that exemplify the two different approaches to microservices
+%\% @ references to MacKenzie�s book: 2001 and 2004
+% p16 �we fact the problem�
+
+% HOW TO RESPOND?
+%  - I accept this is not a typical format, but it is still a valuable contribution in the
+%    spririt of HOPL. First, it further develops the 'miscomputation' paper in a direction that
+%    I promised to follow - use discussion about errors as a lens for understanding the discipline.
+%    Second, it provides a framing for many other HOPL papers. Arguably, computer scientist is
+%    in a good position to provide the framing with respect to current CS knowledge and as such,
+%    this should be in HOPL.
+%
+%  - rename characters
+%
+%  - due to time constraints, I won't be able to make larger changes, but...
+%    the nature of cultures is that they are not explicit (as discussed in Section~X)
+%    and as such, they cannot be direclty historically identified (e.g. nobody says 
+%    "I belong to culture X"), but I will improve the paper by 1) providing clear characteristic
+%    of the cultures early in the paper (this is at the end now) and 2) in the detailed discussions,
+%    point out how different historical actors and papers behave/write according to their culture
+% 
 
 \newpage
 \section{Introduction}
@@ -3583,6 +3713,7 @@ small-scale processes that an individual or a team can follow to produce more ro
 maintainable software.
 
 \section{The nature of programming cultures}
+\label{sec:nature}
 
 We were able to identify four different cultures of programming, but so far, we avoided defining
 what a culture of programming actually is. The term \emph{culture of programming} has been 
@@ -3628,6 +3759,7 @@ programming langauge features such as types, tests or exceptions.
 ~
 \newpage
 
+% Thanks to PROGRAMme (ANR-17-CE38-0003-01)
 
 %\section{Debugging/live coding}
 %
